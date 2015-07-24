@@ -14,30 +14,33 @@
 ## Usage
 
 ```js
-import getMdImage from 'get-md-image';
+import getImage from 'get-md-image';
 
-getMdImage('unicorns'); // unicorns
+const input = `
+# title
+
+description ![meow](http://placekitten.com/g/300)
+`.trim();
+
+getImage(input).alt;  // meow
+getImage(input).src;  // http://placekittern.com/g/300
+getImage(input).html; // <img src="http://placekitten.com/g/300" alt="meow" />
+
+getImage('').alt;  // undefined
+getImage('').src;  // undefined
+getImage('').html; // undefined
 ```
 
 ## API
 
-### getMdImage(input, [options])
+### getImage(input)
 
 #### input
 
 *Required*  
 Type: `String`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `Boolean`  
-Default: `false`
-
-Lorem ipsum.
+Markdown string.
 
 ## License
 
