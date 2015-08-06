@@ -39,5 +39,8 @@
     "assert": "*",
     "isparta": "*",
     "mocha": "*"
+  },
+  "dependencies": {
+    "commonmark-helpers": "^0.4.0"
   }
 }
