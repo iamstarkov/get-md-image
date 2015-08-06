@@ -25,7 +25,7 @@ description ![meow](http://placekitten.com/g/300)
 getImage(input).alt;  // meow
 getImage(input).src;  // http://placekitten.com/g/300
 getImage(input).html; // <img src="http://placekitten.com/g/300" alt="meow" />
-getImage('');         // undefined
+getImage('');         // undefined ¯\_(ツ)_/¯
 ```
 
 ## API
