@@ -1,6 +1,6 @@
 {
   "name": "get-md-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get image from markdown article",
   "main": "index.es5.js",
   "scripts": {
