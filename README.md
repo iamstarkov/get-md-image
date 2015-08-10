@@ -19,8 +19,7 @@ import getImage from 'get-md-image';
 const input = `
 # title
 
-description ![meow](http://placekitten.com/g/300)
-`.trim();
+description ![meow](http://placekitten.com/g/300)`;
 
 getImage(input).alt;  // meow
 getImage(input).src;  // http://placekitten.com/g/300

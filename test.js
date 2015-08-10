@@ -4,8 +4,7 @@ import getImage from './index';
 const input = `
 # title
 
-description ![meow](http://placekitten.com/g/300)
-`.trim();
+description ![meow](http://placekitten.com/g/300)`;
 
 it('should getImage alt', () =>
   equal(getImage(input).alt, 'meow'));
