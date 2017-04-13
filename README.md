@@ -1,5 +1,7 @@
 # get-md-image
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iamstarkov/get-md-image.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Coveralls Status][coveralls-image]][coveralls-url]
