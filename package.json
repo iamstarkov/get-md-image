@@ -35,7 +35,7 @@
   "homepage": "https://github.com/iamstarkov/get-md-image#readme",
   "devDependencies": {
     "babel": "*",
-    "coveralls": "*",
+    "coveralls": ">=2.13.3",
     "assert": "*",
     "isparta": "*",
     "mocha": "*"
